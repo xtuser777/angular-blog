@@ -8,10 +8,10 @@ import {dataFake} from '../../data/dataFake'
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
-  photoCover:string = ""
-  contentTitle:string = ""
-  contentDescription:string = ""
-  private id:string | null = "0"
+  photoCover: string = ""
+  contentTitle: string = ""
+  contentDescription: string = ""
+  private id: string | null = "0"
 
   constructor(
     private route:ActivatedRoute
