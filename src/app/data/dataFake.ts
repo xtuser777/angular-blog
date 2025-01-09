@@ -1,4 +1,11 @@
-export const dataFake = [
+export type Post = {
+  id: string;
+  title: string;
+  description: string;
+  photoCover: string;
+};
+
+export const dataFake: Post[] = [
   {
     "id":"1",
     "title": "NOVO HOMEM DE FERRO EM 3D",
